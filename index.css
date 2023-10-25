@@ -135,39 +135,55 @@ button#showAllButton {
 
 @media (max-width: 600px) {
     .timeline {
-        padding: 5px; /* Further reduce padding for smaller screens */
+        padding: 5px; 
         max-height: none; 
     }
 
     .time-line-container h1 {
-        font-size: 1.3rem; /* Decrease font size for smaller screens */
+        font-size: 1.3rem; 
     }
 
     .time-line-container .span {
-        font-size: 1rem; /* Decrease font size for smaller screens */
-        margin-top: 0.2rem; /* Further adjust margin for smaller screens */
-        margin-bottom: 0.5rem; /* Further adjust margin for smaller screens */
+        font-size: 1rem; 
+        margin-top: 0.2rem; 
+        margin-bottom: 0.5rem;
     }
 
     .timeline-info span {
-        font-size: 0.9rem; /* Decrease font size for smaller screens */
+        font-size: 0.9rem; 
     }
 
     .timestamp span,
     .timeline-info span,
     h1,
     p {
-        font-size: 0.9rem; /* Decrease font size for smaller screens */
+        font-size: 0.9rem; 
     }
 
     .update {
-        max-width: 200px; /* Further decrease max-width for smaller screens */
-        padding: 10px; /* Further adjust padding for smaller screens */
-        margin: 5px auto; /* Further adjust margin for smaller screens */
+        max-width: 200px; 
+        padding: 10px; 
+        margin: 5px auto; 
     }
 
     button#showAllButton {
-        font-size: 0.9rem; /* Decrease font size for smaller screens */
-        height: 40px; /* Further decrease height for smaller screens */
+        font-size: 0.9rem; 
+        height: 40px; 
     }
+}
+
+footer {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+footer span {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
