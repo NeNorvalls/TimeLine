@@ -1,7 +1,7 @@
 # Project Overview
 ![Project Logo](/TimelineCover.jpg)
 
-[Demo Video](https://nenorvalls-timeline.netlify.app/)
+![Visit My Project on Netlify](https://nenorvalls-timeline.netlify.app/)
 
 
 # CSS Styling for a Timeline Webpage
