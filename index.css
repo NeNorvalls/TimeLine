@@ -83,9 +83,12 @@ body {
     font-size: 1.2rem; 
 }
 
+h1 {
+    color: #fff;
+}
+
 .timestamp span,
 .timeline-info span,
-h1,
 p {
     color: #222;
 }
@@ -187,3 +190,19 @@ footer span {
     font-size: 16px;
     letter-spacing: 2px;
 }
+
+.back-to-landing {
+    color: #ffd700;
+    font-weight: bold;
+    display: block; 
+    margin: 0 auto; 
+    padding: 1rem; 
+    text-align: center; 
+    text-decoration: none;
+  }
+  
+  .back-to-landing:hover {
+    text-decoration: underline;
+  }
+  
+  
